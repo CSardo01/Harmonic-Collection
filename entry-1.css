@@ -55,7 +55,7 @@ hr {
 }
 
 ol {
-  color: rgb(166, 148, 135);
+  color: #7f7c78;
   font-family: 'input-mono-narrow', monospace;
   font-weight: 200;
   font-style: normal;
@@ -129,7 +129,7 @@ a {
 }
 
 .bodycopy {
-  color: rgb(88, 57, 35);
+  color: #7f7c78;
   font-family: input-mono-narrow, monospace;
   font-weight: 200;
   font-style: normal;
