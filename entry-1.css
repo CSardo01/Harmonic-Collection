@@ -45,13 +45,13 @@ h2 {
 .entry-num {
   font-family: 'input-mono-narrow', monospace;
   font-weight: 200;
-  border: #fff9f1 solid;
+  border: #fff9f1 solid 2px;
   width: fit-content;
   padding: 0.5rem;
 }
 
 hr {
-  border: 1px solid;
+  border:solid 1px;
 }
 
 ol {
@@ -74,7 +74,7 @@ a {
 }
 
 .list {
-  border-left: #506857 solid;
+  border-left: #506857 solid 2px;
   padding-left: 1em;
 }
 
