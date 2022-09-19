@@ -49,6 +49,7 @@ h3{
 }
 hr {
     border: solid 1px;
+    margin: 3rem 0rem;
 }
 b{
     font-weight: bold;
@@ -220,7 +221,7 @@ dd::before{
     content: "- ";
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
     .section-grid-01 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
