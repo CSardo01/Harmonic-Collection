@@ -1,3 +1,53 @@
 html{
+    font-size: 24px;
     
 }
+Body{
+    height: 100vh;
+    width: 100vw;
+    color: #f1f1f1;
+    background-image: url("assets/Backgroung img.JPG");
+    background-size: cover;
+    background-color:#665652 ;
+    font-family: 'degular';
+    padding: 4rem;
+    
+}
+main{
+    width: 100%;
+    height: 100%;
+    border: solid #f1f1f1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+header{
+    padding: 1rem;
+}
+
+h2{
+    font-family: input-mono-narrow;
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
+.logo-cont{
+    text-align: right;
+}
+.logo-cont img{
+    width: 30%;
+    object-fit: cover;
+    
+}
+.title{
+    position: relative;
+    grid-column: span 2;
+}
+.title h1{
+    font-family: input-mono-narrow;
+    font-weight: 100;
+    font-size: 2rem;
+    position:absolute;
+    bottom: 1rem;
+    left: 1rem;
+
+}
+
