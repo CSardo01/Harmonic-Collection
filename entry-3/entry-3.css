@@ -1,0 +1,174 @@
+html {
+    font-family: degular;
+    font-size: 24px;
+    background-color: #f1f1f1;
+}
+
+header {
+    position: relative;
+    padding: 2rem;
+    background-color: #665652;
+    background-image: url("/entry-3/entry-3 imgs/Entry-3 Cover img.JPG");
+    background-size: cover;
+    color: #f1f1f1;
+    height: 90vh;
+    z-index: 1;
+
+}
+
+hr {
+    border: solid 1px;
+    margin-bottom: 1rem;
+}
+
+.header-content {
+    position: absolute;
+    padding: 2rem;
+    bottom: 0px;
+    left: 0px;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'degular-display';
+    line-height: 1em;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 1em;
+}
+
+img {
+    max-width: 100%;
+    max-block-size: 100%;
+    object-fit: cover;
+}
+
+section {
+    margin: 2rem 8rem 4rem 8rem;
+}
+
+footer {
+    background-color: #D1623E;
+    color: #f1f1f1;
+    padding: 2rem 8rem 2rem 8rem;
+}
+
+footer a {
+    color: #f1f1f1;
+}
+
+footer p {
+    opacity: 50%;
+}
+
+a:hover {
+    opacity: 50%;
+}
+
+.nav-bar {
+    color: #D1623E;
+    font-family: input-mono-narrow;
+    font-weight: 100;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    background-color: white;
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    box-shadow: 0px 0px 10px 0px #66565230;
+}
+
+.nav-bar>p {
+    opacity: 50%;
+}
+
+
+.img-cont {
+    padding: 1rem;
+    background-color: #ffffff;
+}
+
+.img-cont>img {
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.20);
+}
+
+.section-01 .section-title {
+    margin-left: 0rem;
+    margin-bottom: 2rem;
+    color: #D1623E
+}
+
+.section-01>.section-body {
+    margin-right: auto;
+    margin-left: 0rem;
+    margin-bottom: 2rem;
+    width: 50%;
+}
+
+.section-01 .img-cont {
+    margin-left: 0rem;
+    height: 35%;
+    width: 35%;
+}
+
+.section-02 {
+    margin: 2rem 8rem;
+}
+
+.section-02 .section-title {
+    margin-right: 0rem;
+    text-align: right;
+    margin-bottom: 2rem;
+    color: #D1623E
+}
+
+.section-02>.section-body {
+    margin-left: Auto;
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+    text-align: right;
+    width: 50%;
+}
+
+.section-02 .img-cont {
+    margin-right: 0rem;
+    margin-left: auto;
+    height: 35%;
+    width: 35%;
+}
+
+.section-03 {
+    margin: 2rem 8rem;
+}
+
+.section-03 .section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #D1623E
+}
+
+.section-03>.section-body {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    width: 50%;
+}
+
+.section-03 .img-cont {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35%;
+    width: 35%;
+}
+
+.callout {
+    color: #D1623E;
+    text-align: center;
+    font-size: 4rem;
+}
