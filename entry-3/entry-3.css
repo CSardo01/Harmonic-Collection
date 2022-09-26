@@ -8,7 +8,7 @@ header {
     position: relative;
     padding: 2rem;
     background-color: #665652;
-    background-image: url("/entry-3/entry-3 imgs/Entry-3 Cover img.JPG");
+    background-image: url("entry-3 imgs/Entry-3 Cover img.JPG");
     background-size: cover;
     color: #f1f1f1;
     height: 90vh;
