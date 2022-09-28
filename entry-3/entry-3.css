@@ -175,18 +175,14 @@ a:hover {
 }
 
 @media screen and (max-width: 1000px){
-    html {
-        font-family: degular;
-        font-size: 18px;
-        background-color: #f1f1f1;
-    }
     .section-01, .section-02, .section-03{
         margin-left: 4rem;
         margin-right: 4rem;
     }
+    .section-01 .section-body, 
+    .section-02 .section-body, 
     .section-03 .section-body{
         width: 100%;
     }
-
     
 }
