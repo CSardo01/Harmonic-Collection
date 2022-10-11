@@ -187,7 +187,7 @@ a:hover {
         display: flex;
         gap: 2rem;
         align-items: center;
-    
+
     }
 
     .img-cont {
@@ -195,7 +195,7 @@ a:hover {
         padding: 1rem;
         width: 40%;
         margin-bottom: 0rem;
-    
+
     }
 
     .img-cont img {
@@ -203,7 +203,8 @@ a:hover {
         margin-bottom: 0rem;
         width: 100%;
     }
-    .body-copy{
+
+    .body-copy {
         width: 60%
     }
 
@@ -211,6 +212,7 @@ a:hover {
         height: 30vw;
     }
 }
+
 
 @media (min-width:950px) {
     section {

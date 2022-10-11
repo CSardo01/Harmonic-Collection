@@ -1,0 +1,64 @@
+:root{
+    --page-spacing: 24px;
+    --font-size: 16px;
+    --body-copy: 24px;
+    --brand-color: gold;
+    --side-bar-color: #eee;
+    --link-color: tomato;
+}
+
+
+header,
+nav,
+article,
+aside,
+footer {
+    padding: var(--page-spacing);
+}
+body{
+    font-size: var(--body-copy);
+    font-family: sans-serif;
+}
+h1{
+    font-size: calc(var(--body-copy)*4) ;
+    margin-bottom: var(--page-spacing);
+}
+h2{
+    font-size: calc(var(--body-copy)*2);
+    margin-bottom: var(--page-spacing);
+}
+p not:first-child{
+    max-width: 60ch;
+}
+p{
+    margin-bottom: var(--page-spacing);
+    background-color: rgb(255, 255, 255);
+}
+a{
+    color: var(--link-color);
+}
+a:hover{
+    opacity: 50%;
+}
+header,
+footer{
+    background-color: gold;
+} 
+
+
+@media (min-width:768px) {
+    :root{
+        --font-size: 48px;
+        --page-spacing: 36px;
+    }
+    body{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    header{width: 100%;}
+    nav{width: 10%;}
+    article{width: 60%;}
+    aside{width:30%}
+}
