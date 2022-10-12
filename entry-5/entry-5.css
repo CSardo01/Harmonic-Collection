@@ -10,12 +10,11 @@
 
 html {
     font-size: 24px;
-    font-family: degular;
+    font-family: 'degular';
 }
 
 body {
     background-color: var(--grey);
-    min-width: 100vw;
 }
 
 header {
@@ -24,17 +23,13 @@ header {
     background-color: #665652;
     background-image: url("./entry-5 imgs/Entry-5 Cover img.JPG");
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
     color: var(--grey);
     height: 90vh;
     z-index: 1;
 }
 
-.header-content {
-    position: absolute;
-    bottom: 0em;
 
-}
 
 nav {
     color: var(--oranage);
@@ -102,24 +97,25 @@ footer p {
 
 hr {
     border: solid 1px;
-    margin-bottom: 1rem;
+    margin-bottom: var(--page-spacing);
 }
 
 
 h1 {
     font-size: 'degular';
-    font-size: 4em;
-    margin-bottom: 2rem;
+    font-size: 2em;
+    margin-bottom: var(--page-spacing)
 }
 
 h2 {
     font-weight: 200;
     font-size: 2em;
-    margin-bottom: 2rem;
+    margin-bottom: var(--page-spacing);
     color: var(--oranage)
 }
 
 header h2 {
+    font-size: 1em;
     color: var(--grey);
 }
 
@@ -167,10 +163,16 @@ a:hover {
 
 
 
-@media (min-width:700px) {
+@media (min-width:500px) {
 
-    main {
-        margin: 0rem 2rem 0rem 2rem;
+    h1{
+        font-size: calc(2 * 2rem);
+    }
+    h2{
+        font-size: calc(2 * 1rem);
+    }
+    header h2{
+        font-size: calc(2 * 1rem);
     }
 
     section p {
@@ -216,8 +218,6 @@ a:hover {
 @media (min-width:1040px) {
     main {
         display: flex;
-        margin: 0rem 0rem 0rem 0rem;
-
     }
 
     aside {
