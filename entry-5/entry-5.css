@@ -102,7 +102,7 @@ hr {
 
 
 h1 {
-    font-size: 'degular';
+    font-family: 'degular';
     font-size: 2em;
     margin-bottom: var(--page-spacing)
 }
