@@ -20,7 +20,6 @@ body {
 
 header {
     position: relative;
-    padding: var(--page-spacing);
     background-color: #665652;
     background-image: url("./entry-2 imgs/Entry-02 Cover img.JPG");
     background-size: cover;
@@ -28,6 +27,14 @@ header {
     color: var(--grey);
     height: 90vh;
     z-index: 1;
+}
+
+.header-content{
+    position:absolute;
+    bottom: 0px;
+    max-width: fit-content;
+    margin: var(--page-spacing);
+ 
 }
 
 h1 {
@@ -89,7 +96,6 @@ a::before {
 a::after {
     content: '}';
 }
-
 
 
 a:hover {
@@ -329,5 +335,3 @@ footer a::after {
         font-size: 1em;
     }
 }
-
-@media screen and (max-width: 1000px) {}

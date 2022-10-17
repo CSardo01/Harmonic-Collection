@@ -19,16 +19,21 @@ body {
 
 header {
     position: relative;
-    padding: var(--page-spacing);
-    background-color: #665652;
+    background-color: var(--brown);
     background-image: url("./entry-5 imgs/Entry-5 Cover img.JPG");
     background-size: cover;
-    background-position: top;
+    background-position: bottom;
     color: var(--grey);
     height: 90vh;
     z-index: 1;
 }
-
+.header-content{
+    position:absolute;
+    bottom: 0px;
+    max-width: fit-content;
+    margin: var(--page-spacing);
+  
+  }
 
 
 nav {
@@ -117,6 +122,7 @@ h2 {
 header h2 {
     font-size: 1em;
     color: var(--grey);
+    margin-bottom: 0em;
 }
 
 a::before {
