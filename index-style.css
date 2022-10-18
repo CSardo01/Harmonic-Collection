@@ -97,7 +97,7 @@ a:hover {
 }
 
 a:not(:hover) {
-    transition: opacity 2s;
+    transition: opacity 4s;
 }
 
 @media (min-width: 700px) {
