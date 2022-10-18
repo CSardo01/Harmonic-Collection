@@ -75,12 +75,12 @@ a::before{
 a::after{
     content: "}";
 }
-@media (min-width: 490px){
+/* @media (min-width: 490px){
 
 html{
     font-size: 24px
 }
-}
+} */
 @media (min-width: 700px){
     body{
         height: 100vh;
