@@ -20,9 +20,9 @@ body {
 header {
   position: relative;
   background-color: #665652;
-  background-image: url("./entry-2/entry-2 imgs/entry-02 cover.JPG");
+  background-image: url("../entry-1/entry-1\ imgs/entry-01 cover.JPG");
   background-position: left;
-  background-size: 150%;
+  background-size: cover;
   color: var(--grey);
   height: 90vh;
   z-index: 1;
@@ -127,7 +127,10 @@ ul {
   margin: 2rem 0rem;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-gap: 0.2rem
+  grid-gap: 0.2rem;
+  grid-gap: calc(0.25 * var(--page-spacing));
+  background-color: white;
+  padding: calc(0.5 * var(--page-spacing));
 }
 
 .two-img-grid>img {
@@ -150,7 +153,9 @@ ul {
   margin: 2rem 0rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 0.2rem
+  grid-gap: calc(0.25 * var(--page-spacing));
+  background-color: white;
+  padding: calc(0.5 * var(--page-spacing));
 }
 
 .four-img-grid>img {
@@ -179,13 +184,11 @@ footer p {
     margin: 2rem 0rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0.2rem
   }
   .two-img-grid {
     margin: 2rem 0rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 0.2rem;
   }
   .body-copy{
     max-width: 75%;
