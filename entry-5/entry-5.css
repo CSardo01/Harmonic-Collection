@@ -53,7 +53,7 @@ nav {
     align-items: center;
     gap: 1rem;
 }
-
+ 
 
 article {
     margin: var(--page-spacing);
@@ -164,6 +164,8 @@ a:hover {
 .body-copy {
     margin-bottom: calc(0.5 * var(--page-spacing));
     color: var(--brown);
+    text-align: justify;
+    text-justify: newspaper;
 }
 
 

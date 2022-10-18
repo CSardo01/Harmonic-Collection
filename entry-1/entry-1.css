@@ -28,8 +28,8 @@ header {
   z-index: 1;
 }
 
-.header-content{
-  position:absolute;
+.header-content {
+  position: absolute;
   bottom: 0px;
   max-width: fit-content;
   margin: var(--page-spacing);
@@ -129,7 +129,7 @@ ul {
   background-color: white;
   padding: calc(0.5 * var(--page-spacing));
   margin-bottom: var(--page-spacing);
-  
+
 }
 
 .two-img-grid>img {
@@ -171,9 +171,11 @@ footer {
 footer a {
   color: var(--grey);
 }
+
 footer a::after {
   content: '} :)';
 }
+
 footer p {
   opacity: 50%;
 }
@@ -186,6 +188,7 @@ footer p {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
+
   .two-img-grid {
     width: 75%;
     margin-left: auto;
@@ -193,18 +196,22 @@ footer p {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  .body-copy{
+
+  .body-copy {
     max-width: 75%;
     text-align: justify;
     text-justify: newspaper;
   }
-  h1{
+
+  h1 {
     font-size: calc(2 * 2rem);
-}
-h2{
+  }
+
+  h2 {
     font-size: calc(2 * 1rem);
-}
-header h2{
+  }
+
+  header h2 {
     font-size: calc(2 * 1rem);
-}
+  }
 }
