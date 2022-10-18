@@ -117,20 +117,19 @@ ul {
 .body-copy {
   margin-bottom: calc(0.5 * var(--page-spacing));
   color: var(--brown);
-  text-align: justify;
-  text-justify: newspaper;
 }
 
 
 
 .two-img-grid {
-  margin: 2rem 0rem;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 0.2rem;
   grid-gap: calc(0.25 * var(--page-spacing));
   background-color: white;
   padding: calc(0.5 * var(--page-spacing));
+  margin-bottom: var(--page-spacing);
+  
 }
 
 .two-img-grid>img {
@@ -181,18 +180,23 @@ footer p {
 
 @media screen and (min-width: 700px) {
   .four-img-grid {
-    margin: 2rem 0rem;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
   .two-img-grid {
-    margin: 2rem 0rem;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
   .body-copy{
     max-width: 75%;
-  
+    text-align: justify;
+    text-justify: newspaper;
   }
   h1{
     font-size: calc(2 * 2rem);
