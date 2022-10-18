@@ -20,7 +20,7 @@ body {
 header {
   position: relative;
   background-color: #665652;
-  background-image: url("../entry-2/entry-2\ imgs/entry-02 cover img.jpg");
+  background-image: url("./entry-2/entry-2 imgs/entry-02 cover.JPG");
   background-position: left;
   background-size: 150%;
   color: var(--grey);
