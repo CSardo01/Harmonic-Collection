@@ -56,8 +56,11 @@ main {
     background-color: rgb(242, 242, 242);
     color: var(--brown);
     padding: var(--page-spacing);
-
-
+}
+section{
+    display:flex;
+    flex-wrap: wrap;
+    gap:calc(0.5 * var(--page-spacing))
 }
 
 h1 {
