@@ -15,7 +15,8 @@ html {
 
 body {
     background-color: var(--brown);
-    background-image: url("./assets/Backgroung\ img.JPG");
+    /* background-image: url("./assets/Backgroung\ img.JPG"); */
+    background-image: url("./assets/Rainy\ Window2.gif");
     background-size: cover;
     color: #f1f1f1;
     width: 100vw;
