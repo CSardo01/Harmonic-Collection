@@ -8,11 +8,13 @@
     --sans: 'degular';
     font-size: 18px;
 }
+
 body {
-    background-color:var(--brown);
+    background-color: var(--brown);
     background-image: url("../entry-2/entry-2 imgs/entry-02\ cover.JPG");
     background-size: cover;
 }
+
 hr {
     border: solid 1px;
     margin-bottom: var(--page-spacing);
@@ -22,7 +24,7 @@ hr {
 h1 {
     font-family: var(--sans);
     font-size: 2em;
-    margin-bottom: var(--page-spacing)
+    margin-bottom: var(--page-spacing);
 }
 
 h2 {
@@ -30,7 +32,7 @@ h2 {
     font-size: 2rem;
     font-family: var(--sans);
     margin-bottom: var(--page-spacing);
-    color: var(--grey)
+    color: var(--grey);
 }
 
 a::before {
@@ -44,6 +46,7 @@ a::after {
 a:hover {
     opacity: 50%;
 }
+
 header {
     /* background-color: var(--brown); */
     /* background-image: url("../entry-1/entry-1 imgs/entry-01 cover.JPG"); */
@@ -54,23 +57,26 @@ header {
     z-index: 1;
     padding: var(--page-spacing);
 }
-.header-border{
+
+.header-border {
     border: solid var(--grey);
     position: relative;
     height: 100%;
 }
-.header-content{
-    position:absolute;
+
+.header-content {
+    position: absolute;
     bottom: 0;
     padding: var(--page-spacing);
     color: var(--grey);
     max-width: fit-content;
-  }
-  header h2 {
-      font-size: 1em;
-      color: var(--grey);
-      margin-bottom: 0em;
-  }
+}
+
+header h2 {
+    font-size: 1em;
+    color: var(--grey);
+    margin-bottom: 0em;
+}
 
 
 
@@ -92,33 +98,39 @@ nav {
     align-items: center;
     gap: 1rem;
 }
-main{
+
+main {
     margin: var(--page-spacing);
     border: solid #f1f1f1;
     padding: var(--page-spacing);
 }
-.spacer{
+
+.spacer {
     height: 100vh;
 }
-.line-1{
+
+.line-1 {
     position: sticky;
     top: calc(2.5 * var(--page-spacing));
     max-width: fit-content;
     font-size: 1.75rem;
 }
-.line-2{
+
+.line-2 {
     position: sticky;
     top: calc(5.5 * var(--page-spacing));
     max-width: fit-content;
     font-size: 1.75rem;
 }
-.line-3{
+
+.line-3 {
     position: sticky;
     top: calc(8.5 * var(--page-spacing));
     max-width: fit-content;
     font-size: 1.75rem;
 }
-.img-cont{
+
+.img-cont {
     position: sticky;
     top: calc(12 * var(--page-spacing));
     background-color: var(--grey);
@@ -129,40 +141,45 @@ main{
     margin-left: auto;
 }
 
-img{
-    margin-bottom:calc(0.25 * var(--page-spacing));
+img {
+    margin-bottom: calc(0.25 * var(--page-spacing));
 }
-.img-cont p{
+
+.img-cont p {
     font-family: var(--mono);
     font-weight: 200;
     font-size: calc(0.75 * 18px);
-    margin-bottom:calc(0.25 * var(--page-spacing));
+    margin-bottom: calc(0.25 * var(--page-spacing));
 
 }
 
-main h2:hover{
-opacity: 0%;
-transition: ease-in-out 1s;
-margin-left: -10px;
+main h2:hover {
+    opacity: 0%;
+    transition: ease-in-out 1s;
+    margin-left: -10px;
 }
 
-main h2:not(:hover){
+main h2:not(:hover) {
     opacity: 100%;
     transition: ease-in-out 1000s;
 }
-.img-cont:hover{
+
+.img-cont:hover {
     opacity: 0%;
     transition: ease-in-out 1s;
 }
-.img-cont:not(:hover){
+
+.img-cont:not(:hover) {
     opacity: 100%;
     transition: ease-in-out 1000s;
 }
-@media screen and (min-width: 700px){
-    :root{
+
+@media screen and (min-width: 700px) {
+    :root {
         font-size: 24px;
     }
-    .img-cont{
+
+    .img-cont {
         height: 30%;
         width: 30%;
         padding: calc(0.25 * var(--page-spacing));
