@@ -22,8 +22,8 @@ hr {
 
 h1 {
     font-family: var(--sans);
-    font-size: 2em
-    margin-bottom: var(--page-spacing)
+    font-size: 2em;
+    margin-bottom: var(--page-spacing);
 }
 
 h2 {
