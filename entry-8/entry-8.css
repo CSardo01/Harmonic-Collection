@@ -1,11 +1,20 @@
 /* nav{
     margin: 0 var(--page-spacing);
 } */
+header{
+    background-image: url(../entry-8/entry-8\ imgs/entry-8_cover_image.jpg);
+    height: 92vh;
+}
+nav{
+    color: var(--oranage);
+    height: 8vh;
+}
+
 .h-scroll {
     background: var(--brown);
+    background-image: url(../entry-8/entry-8\ imgs/h-scroll_background_2.jpg);
+    background-size: 100%;
     color: var(--grey);
-
-    margin-top: var(--page-spacing);
     margin-bottom: var(--page-spacing);
     /* margin: var(--page-spacing); */
     
@@ -16,6 +25,10 @@
     scroll-snap-type: x mandatory;
     scroll-padding: var(--page-spacing);
     box-shadow: inset var(--img-shadow);
+}
+main :nth-child(4){
+    background-image: url(../entry-8/entry-8\ imgs/h-scroll_background_1.jpg);
+    background-position: right;
 }
 
 .h-scroll > * {
@@ -39,7 +52,7 @@
 .h-scroll h2 {
     font-size: 1.5rem;
     color: var(--grey);
-    background-color: var(--brown);
+
 
     /* --inset--top: -0.35em;
     --inset--bottom: -0.35em;

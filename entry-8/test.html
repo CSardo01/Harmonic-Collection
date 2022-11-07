@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+    <link rel="stylesheet" href="https://core-interaction.github.io/assets/styles/reset.css">
+    <link rel="stylesheet" href="https://use.typekit.net/xlq3upe.css">
+</head>
+<style>
+    :root {
+        --oranage: #D1623E;
+        --brown: #6b5450;
+        --grey: #f1f1f1;
+        --img-shadow: 0px 0px 10px 0px rgba(102, 86, 82, 0.25);
+        --page-spacing: 2rem;
+        --mono: 'input-mono-narrow';
+        --sans: 'degular';
+        font-family: var(--sans);
+        font-size: 18px;
+    }
+
+    .h-scroll {
+        background: #D1623E;
+        color: #f1f1f1;
+        padding: var(--page-spacing);
+        display: flex;
+        gap: calc(0.5 * var(--page-spacing));
+        overflow-x: auto;
+        margin-bottom: var(--page-spacing);
+        box-shadow: inset 0px 0px 20px 0px rgba(0, 0, 0, 0.02)
+    }
+
+    .h-scroll * {
+        flex-shrink: 0;
+        width: 75%;
+
+    }
+
+
+    .h-scroll h2:before,
+    .h-scroll h2:after {
+        content: '';
+        display: block;
+        visibility: hidden;
+        margin-top: var(--inset--top);
+        margin-bottom: var(--inset--bottom);
+
+
+    }
+
+    .h-scroll h2 {
+        font-size: 2rem;
+
+        --inset--top: -0.3em;
+        --inset--bottom: 0;
+        --inset--left: 0;
+        --inset--right: var(--page-spacing);
+
+        display: flow-root;
+        /* Cinch the height. */
+        margin-left: var(--inset--left);
+        margin-right: var(--inset--right);
+        width: fit-content;
+        /* Cinch the width. */
+    }
+
+    /* .h-scroll h2{
+        transform: rotate(90deg);
+    } */
+
+    .img-container {
+        background-color: var(--grey);
+        padding: calc(0.5 * var(--page-spacing));
+    }
+
+    .h-scroll .img-container>img {
+        width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        box-shadow: var(--img-shadow);
+    }
+
+    /* p {
+        max-width: 50%;
+    } */
+</style>
+
+</html>
+<section class="h-scroll">
+    <h2>Test Section A</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, quia consequatur? Qui eos atque soluta saepe eum
+        praesentium expedita doloremque rerum consectetur porro aut, veniam mollitia enim nam a delectus accusantium
+        itaque molestias quibusdam odio eaque! Modi alias fugit non.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, quia consequatur? Qui eos atque soluta saepe eum
+        praesentium expedita doloremque rerum consectetur porro aut, veniam mollitia enim nam a delectus accusantium
+        itaque molestias quibusdam odio eaque! Modi alias fugit non.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, quia consequatur? Qui eos atque soluta saepe eum
+        praesentium expedita doloremque rerum consectetur porro aut, veniam mollitia enim nam a delectus accusantium
+        itaque molestias quibusdam odio eaque! Modi alias fugit non.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, quia consequatur? Qui eos atque soluta saepe eum
+        praesentium expedita doloremque rerum consectetur porro aut, veniam mollitia enim nam a delectus accusantium
+        itaque molestias quibusdam odio eaque! Modi alias fugit non.</p>
+</section>
+<section class="h-scroll">
+    <h2>Test Section B</h2>
+    <div class="img-container">
+        <img src="../entry-7/entry-7 imgs/Subway-window.jpg">
+    </div>
+    <div class="img-container">
+        <img src="../entry-7/entry-7 imgs/Subway-window.jpg">
+    </div>
+    <div class="img-container">
+        <img src="../entry-7/entry-7 imgs/Subway-window.jpg">
+    </div>
+    <div class="img-container">
+        <img src="../entry-7/entry-7 imgs/Subway-window.jpg">
+    </div>
+</section>
