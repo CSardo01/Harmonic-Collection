@@ -99,7 +99,7 @@
 @media screen and (min-width: 700px) {
     .h-scroll > * {
         flex-shrink: 0;
-        width: 40%;
+        width: 35%;
 
     }
     .frame{
