@@ -1,6 +1,9 @@
 body {
     background-color: var(--brown);
     color: var(--brown);
+    background-image:url(../entry-9/entry-9_assets/entry-9_cover.jpg);
+    background-size: 200%;
+
 }
 
 .nav-bar{
@@ -92,7 +95,7 @@ section > p{
 .button:hover{
     background-color: #d1623e;
     color: #f1f1f1;
-    box-shadow: 0px 0px 10px 0px rgba(209, 99, 62, 0.8);
+    box-shadow: 0px 0px 10px 0px rgba(209, 99, 62, 0.6);
     transition: 300ms ease-in-out;
     cursor: pointer;
 }
